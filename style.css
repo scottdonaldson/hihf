@@ -1,0 +1,450 @@
+@font-face {
+    font-family: 'BPreplay';
+    src: url('fonts/BPreplay-webfont.eot');
+    src: url('fonts/BPreplay-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BPreplay-webfont.woff') format('woff'),
+         url('fonts/BPreplay-webfont.ttf') format('truetype'),
+         url('fonts/BPreplay-webfont.svg#BPreplayRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BPreplay';
+    src: url('fonts/BPreplayItalics-webfont.eot');
+    src: url('fonts/BPreplayItalics-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BPreplayItalics-webfont.woff') format('woff'),
+         url('fonts/BPreplayItalics-webfont.ttf') format('truetype'),
+         url('fonts/BPreplayItalics-webfont.svg#BPreplayItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'BPreplay';
+    src: url('fonts/BPreplayBold-webfont.eot');
+    src: url('fonts/BPreplayBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BPreplayBold-webfont.woff') format('woff'),
+         url('fonts/BPreplayBold-webfont.ttf') format('truetype'),
+         url('fonts/BPreplayBold-webfont.svg#BPreplayBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+;article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { width:790px; margin: 0; font-size: 1em; line-height: 1.66; }
+::-moz-selection { background: #99531E; color: #FBEDB1; text-shadow: none; }
+::selection { background: #99531E; color: #FBEDB1; text-shadow: none; }
+a { color: #99531E; text-decoration:underline; }
+a:visited { color: #99531E; text-decoration:underline; }
+a:hover { color: #99531E; text-decoration:none; border-bottom:1px dotted #99531E; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 0; }
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+
+/* --------- Both ------------- */
+
+* {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+body {
+	font-family:'BPreplay','Nunito',Helvetica,Arial,sans-serif;
+	color:#99531E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+}
+
+h1 {
+	position:absolute;
+	font-size:78px;
+	line-height:1;
+	margin-top:20px;
+	left:20px;
+	color:#fff;
+	padding-top:4px;
+	border-top:3px solid #fff;
+	border-bottom:3px solid #fff;
+}
+
+h2.callout {
+	display:block;
+	width:50%;
+	float:left;
+	margin:0 5% 50px 0;
+	padding-right:5%;
+	border-right:2px solid #fdc70d;
+	text-transform:uppercase;
+	text-align:center;
+	line-height:1.1;
+	color:#FDC70D;
+}	
+
+#main {
+	background: #fff; /* Old browsers */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y5ZTRhMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmOWU0YTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(249,228,160,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(249,228,160,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,228,160,1)), color-stop(25%,rgba(255,255,255,1)), color-stop(75%,rgba(255,255,255,1)), color-stop(100%,rgba(249,228,160,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(249,228,160,1) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 75%,rgba(249,228,160,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(249,228,160,1) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 75%,rgba(249,228,160,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(249,228,160,1) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 75%,rgba(249,228,160,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(249,228,160,1) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 75%,rgba(249,228,160,1) 100%); /* W3C */
+	padding:40px 20px;
+}
+
+.oldie #main {
+	background:#fff !important;
+}
+
+p {
+	font-size:17px;
+}
+
+#panels {
+	background:#FDC70D;
+	clear:left;
+	float:left;
+	width:300px;
+	padding:20px;
+	margin-right:30px;
+	overflow:hidden;
+	position:relative;
+}
+
+iframe {
+	position:relative;
+	float:left;
+	clear:left;
+}
+
+#billing,
+#card {
+	display:none;
+}
+
+#panels h2 {
+	color:#fff;
+	display:block;
+	border-bottom:2px solid #fff;
+	margin-top:0;
+	width:107.5%;
+	position:relative;
+	padding-left:10px;
+	left:-10px;
+}
+
+#panels ul,
+#panels ol {
+	padding-left:0;
+	margin:0;
+}
+
+.panel {
+	z-index:3;
+	background:#FDC70D;
+	position:relative;
+}
+
+a.button,
+button, 
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"] {
+	background:#FBEDB1;
+	color:#99531E;
+	padding:2px 12px 3px;
+	text-decoration:none;
+	float:right;
+	clear:right;
+	margin-top:20px;
+	border:0 none;
+	cursor:pointer;
+}
+
+.lt-ie8 a.button,
+.lt-ie8 button {
+	margin-right:40px;
+}
+
+a.button.left {
+	float:left;
+}
+
+button, 
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"] {
+	font-family:'BPReplay',Helvetica,Arial,sans-serif;
+	padding:6px 12px 7px;
+}
+
+a.button:hover,
+button:hover {
+	text-decoration:underline;
+	border-bottom:0 none;
+}
+	
+/* -------- Donate ------------ */
+
+#donate {
+	background:url('http://www.handinhandforliteracy.org/facebook/images/donate-header.jpg');
+	height:428px;
+	width:100%;
+}
+
+.options input[type="radio"] {
+	display:none;
+}
+
+.options li {
+	padding-left:25px;
+	background:url('http://www.handinhandforliteracy.org/facebook/images/unchecked.png') no-repeat 0 5px;
+	list-style-type:none;
+	cursor:pointer;
+}
+
+input[type="text"] {
+	border:2px solid #99531E;
+	background:#FBEDB1;
+	padding:3px 3px 2px 3px;
+	color:#99531E;
+	font-family:'BPReplay',Helvetica,Arial,sans-serif;
+	width:100%;
+	margin-bottom:10px;
+}
+
+.lt-ie8 input[type="text"] {
+	width:90%;
+}
+
+.graphic {
+	float:right;
+	width:390px;
+}
+
+.graphic h2 {
+	font-size:44px;
+	line-height:1.2;
+}
+
+#order_user_order_credit_card_attributes_state,
+#order_user_order_credit_card_attributes_country,
+#order_user_order_credit_card_attributes_expiration_month,
+#order_user_order_credit_card_attributes_expiration_year,
+#order_user_order_recurring_donation {
+	display:none;
+}
+
+.dropdown {
+	margin-top:0;
+}
+
+.dropdown dd { position:relative; }
+/* DT styles for sliding doors */
+.dropdown dt {
+	background:#FBEDB1 url('http://www.handinhandforliteracy.org/facebook/images/dropdown.jpg') no-repeat scroll right center;
+    border:2px solid #99531e;
+	cursor:pointer; 
+	display:block; 
+	font-size:13px;
+	height:29px;
+	max-width:100%;
+	overflow:hidden;
+	padding:3px 20px 0 8px;
+	width:150px;
+}
+.dropdown dt a span {cursor:pointer; display:block; padding:5px;}
+/* UL styles */
+.dropdown dd ul { 
+	background:#FBEDB1; 
+	border:2px solid #99531e;
+	box-shadow:0 0 10px #99531e;
+	display:none;
+	height:300px;
+	left:-40px;
+	list-style:none; 
+	overflow:auto;
+	padding:10px !important;
+	position:absolute; 
+	top:-180px;
+	width:260px;
+}
+
+.dropdown span.value { display:none;}
+.dropdown dd ul li {
+	background:#FBEDB1;
+	cursor:pointer;
+	float:left;
+	font-size:13px;
+	line-height:1.2; 
+	padding:5px; 
+	display:block;
+	width:230px;
+}
+
+.dropdown dd ul li:hover {
+	background:#99531E;
+	color:#fbedb1;
+}
+
+#targetState ul {
+	left:-151px;
+}
+
+#targetCountry ul {
+	left:-152px;
+	top:-245px;
+}
+
+#targetMonth {
+	clear:left;
+	float:left;
+	margin-right:3%;
+	width:27%;
+}
+
+#targetYear {
+	float:left;
+	width:27%;
+	margin-right:3%;
+}
+
+#targetYear ul {
+	width:170px;
+}
+
+#targetYear li {
+	width:130px;
+}
+
+#targetRecurring ul {
+	height:130px;
+	top:-30px;
+}
+
+#card .checkbox label {
+	padding-left:30px;
+	background:url('images/terms-unchecked.png') no-repeat 0 2px;
+	display:block;
+}
+
+#order_user_order_terms_of_use {
+	display:none;
+}
+
+/* -------------- JOIN ------------ */
+
+#join {
+	background:url('http://www.handinhandforliteracy.org/facebook/images/join-header.jpg');
+	height:430px;
+	width:100%;
+}
+
+#entry_2,
+#entry_3,
+#entry_4 {
+	display:none;
+}
+
+#targetHear {
+	overflow:visible !important;
+}
+
+#targetAge dt,
+#targetHear dt,
+#targetTouch dt {
+	width:100%;
+}
+
+#targetAge ul {
+	height:185px;
+	width:257px;
+	top:-45px;
+}
+
+#targetHear ul {
+	height:135px;
+	width:257px;
+	top:-45px;
+}
+
+#targetTouch ul {
+	height:135px;
+	width:257px;
+	top:-85px;
+}
+
+.other-hear {
+	display:none;
+}
+
+.cancel {
+	cursor:pointer;
+}
